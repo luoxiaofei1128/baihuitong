@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Expires" CONTENT="0"> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="百汇通Mpos客户端下载——百汇通" >
+<meta content="百汇通，是一家专业第三方金融服务机构。在世界经济已进入服务经济的时代背景下，百汇通致力于服务客户，为客户创造优质生活。百汇通的发展战略是建设中国最具竞争力的第三方金融服务业运营商，实现持续稳健发展。目前，百汇通已与多家银行建立合作伙伴关系，为客户提供最有力的安全保证。" name="description">
+<link href="app/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="app/mobile2013.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script type="text/javascript">    
+function countDown(secs,surl){    
+	//alert(surl);     
+	var jumpTo = document.getElementById('jumpTo').innerHTML = secs;
+//	jumpTo.innerHTML=secs; 
+	if(--secs>0){    
+		setTimeout("countDown("+secs+",'"+surl+"')",1000);    
+	}else{      
+		location.href=surl;    
+	}    
+}
+
+function change(id){
+	document.getElementById('id').src = "app/"+id+"_a.png";
+}
+</script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1"><img src="app/logo.png"></div>
+  <div id="LayoutDiv2"><a href="itms-services://?action=download-manifest&url=https://www.baihuitongpay.com/baihuitong.plist"><img src="app/ios.png" alt="苹果客户端下载"></a></div>
+  <div id="LayoutDiv3">
+    <p><a href="http://www.baihuitongpay.com/baihuitong.apk"><img src="app/android.png" alt="安卓客户端下载"></a></p>
+<p></p>
+  </div>
+<div id="LayoutDiv4"><img src="app/code.gif" /></div>
+  <div id="LayoutDiv6" style="height:50px;"></div>
+  <p style="color:white;">【注：因&quot;微信&quot;不支持在网页上下载APP，如果您使用&quot;微信&quot;扫描二维码，打开页面，出现点击下载没反应的情况，请点击页面右上角的菜单，选择&quot;在浏览器中打开&quot;，
+    然后跳转到系统其他浏览器中，可正常下载！】</p>
+
+</div>
+</body>
+</html>
